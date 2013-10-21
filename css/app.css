@@ -1,0 +1,53 @@
+/* Colors and the rest of appearance properties are defined in this file.
+   We've added a few sample properties to get you started */
+
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: #444545;;
+
+}
+
+#content {
+    border-top: 1px solid #993;
+    padding: 1rem 0.5rem;
+}
+
+#result, #data1, #action {
+	background: #AAA;
+	color: white;
+	height: 250%;
+	text-align: right;
+	padding-right:5%;
+	padding-left: 5%;
+	margin-top: 2px;
+}
+
+.row {
+	background: #aaaaaa;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 15%;
+
+	float: left;
+}
+
+button {
+    background: #fafafa;
+    border: 0.1rem solid #a6a6a6;
+    border-radius: 0.2rem;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
